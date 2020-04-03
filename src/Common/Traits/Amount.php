@@ -6,12 +6,12 @@ trait Amount
 {
     protected $amount;
 
-    public function setAmount(float $amount): void
+    public function setAmount($amount): void
     {
         $this->amount = $amount;
     }
 
-    public function getAmount(): float
+    public function getAmount()
     {
         return $this->amount;
     }

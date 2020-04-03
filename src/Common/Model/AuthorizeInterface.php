@@ -7,7 +7,7 @@ use Payconn\Common\ModelInterface;
 
 interface AuthorizeInterface extends ModelInterface
 {
-    public function getAmount(): float;
+    public function getAmount();
 
     public function getInstallment(): int;
 
