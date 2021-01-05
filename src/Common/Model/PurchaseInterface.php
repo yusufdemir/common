@@ -7,7 +7,7 @@ use Payconn\Common\ModelInterface;
 
 interface PurchaseInterface extends ModelInterface
 {
-    public function getAmount(): float;
+    public function getAmount();
 
     public function getInstallment(): int;
 
